@@ -122,8 +122,8 @@ let currentBasePrice = 2500000;
         function orderFromCalculator() {
             let total = currentBasePrice;
             activeFeatures.forEach(f => total += f.price);
-            const text = `Halo BlueGreen Studio, saya ingin berkonsultasi mengenai ${selectedProjectTitle} dengan estimasi Rp ${total.toLocaleString('id-ID')}.`;
-            window.open(`https://wa.me/6281234567890?text=${encodeURIComponent(text)}`, '_blank');
+            const text = `Halo Kiawebmaker Studio, saya ingin berkonsultasi mengenai ${selectedProjectTitle} dengan estimasi Rp ${total.toLocaleString('id-ID')}.`;
+            window.open(`https://wa.me/6285380079905?text=${encodeURIComponent(text)}`, '_blank');
         }
 
         function switchTechTab(category) {
